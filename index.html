@@ -41,6 +41,9 @@
     background-color:  #1b2c34;
     box-shadow: white;
         }
+        span.greater-less {
+    font-family: Arial, sans-serif;
+}
 
         ul {
         list-style-type: none; /* Remove default list bullets */
@@ -56,6 +59,9 @@
     }
     .accordion-button:after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300cc83'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+span.hash {
+    font-family: Arial, sans-serif;
 }
     
       </style>
@@ -103,7 +109,7 @@
 <h2 >
     I Like making fun,<br>
     interactive things <br>
-    with <span id="code">  code  </span> & <span id="design">design</span><br>
+    with <span id="code"> <span class="greater-less"> &lt;code&#47;&gt;</span>  </span> & <span id="design">design</span><br>
     I also   talk & write about 
     those things.
 </h2>
@@ -141,14 +147,14 @@
             <span class="scroll-item">JavaScript</span><span class="dot-divider">&#8226;</span>
             <span class="scroll-item">jQuery</span><span class="dot-divider">&#8226;</span>
             <span class="scroll-item">MS SQL</span><span class="dot-divider">&#8226;</span>
-            <span class="scroll-item">C &#x266F;</span><span class="dot-divider">&#8226;</span>
+            <span class="scroll-item">C <span class="hash">#</span><span class="dot-divider">&#8226;</span>
             <span class="scroll-item">Dot Net Framework</span><span class="dot-divider">&#8226;</span>
              <span class="scroll-item">Dot Net Core</span><span class="dot-divider">&#8226;</span>
             <span class="scroll-item">Angular </span><span class="dot-divider">&#8226;</span>
             <span class="scroll-item">TypeScript</span><span class="dot-divider">&#8226;</span>
-            <span class="scroll-item">Visual Studio</span><span class="dot-divider">&#8226;</span>
+            <span class="scroll-item">Visual Studio 2022</span><span class="dot-divider">&#8226;</span>
             <span class="scroll-item">Visual Studio Code</span><span class="dot-divider">&#8226;</span>
-            <span class="scroll-item">Git</span>
+            <span class="scroll-item">git</span>
         </div>
         </div>
     </div>
@@ -161,6 +167,7 @@
 
 <section>
     <h1 class="text-center" style="color: #00cc83;"><strong>Experience</strong></h1>
+    <br>
     <div class="accordion container accordion-flush text-center" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
