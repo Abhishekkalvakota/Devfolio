@@ -130,7 +130,6 @@ li{
     position: relative;
     background-color:#00cc83;
     overflow: hidden; 
-    margin-top: -10vh; 
 }
 .scrolling-container:hover{
  cursor: pointer;

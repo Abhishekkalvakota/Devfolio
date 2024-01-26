@@ -19,43 +19,71 @@
           text-decoration: none;
         }
         .accordion-button {
-            background-color:  #1b2c34;
-            color:#00cc83;
-            border: none;
-            width: 1000px;
-            height: 70px;
-            border-radius:10px;
-        }
-        .accordion-item{
-            width: 1000px;
-            border-radius:10px;
-            margin-left:50px;
-            margin-right:50px;
-        }
-        .accordion-body{
-            background-color:#FFFFFF;
+    background-color:  #1b2c34;
+    color: #00cc83;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
 
-        }
-        .accordion-button:not(.collapsed) {
+.accordion-item {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.accordion-body {
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 576px) {
+    .accordion-item {
+        max-width: 540px; /* Adjust as needed for your design */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .accordion-item {
+        max-width: 720px; /* Adjust as needed for your design */
+    }
+}
+
+@media (min-width: 992px) {
+    .accordion-item {
+        max-width: 960px; /* Adjust as needed for your design */
+    }
+}
+
+@media (min-width: 1200px) {
+    .accordion-item {
+        max-width: 1140px; /* Adjust as needed for your design */
+    }
+}
+
+.accordion-button:not(.collapsed) {
     color: #00cc83;
     background-color:  #1b2c34;
-    box-shadow: white;
-        }
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
         span.greater-less {
     font-family: Arial, sans-serif;
 }
 
         ul {
-        list-style-type: none; /* Remove default list bullets */
-        padding: 0; /* Remove default padding */
+        list-style-type: none; 
+        padding: 0; 
     }
 
     li {
-        margin-bottom: 10px; /* Add some space between list items */
-        font-size: 16px; /* Set font size */
-        line-height: 1.4; /* Set line height for better readability */
+        margin-bottom: 10px; 
+        font-size: 16px; 
+        line-height: 1.4;
         color: #1b2c34;
-        font-family: 'Arial', sans-serif; /* Apply Arial font */
+        font-family: 'Arial', sans-serif; 
     }
     .accordion-button:after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300cc83'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
@@ -63,7 +91,7 @@
 span.hash {
     font-family: Arial, sans-serif;
 }
-    
+
       </style>
    
 </head>
@@ -144,7 +172,10 @@ span.hash {
 </div>
    
 </section>
+
 <section>
+    <br>
+    <br>
     <div class="scrolling-container">
         <div class="scrolling-text">
             <span class="scroll-item">HTML</span><span class="dot-divider">&#8226;</span>
@@ -163,7 +194,7 @@ span.hash {
             <span class="scroll-item">git</span>
         </div>
         </div>
-    </div>
+
 </section>
 
 <!-- <section>
@@ -359,15 +390,19 @@ span.hash {
     <p class="text-center"> Join  social media community</p>
    
     <div id="footer-content">
-        <a href="https://www.facebook.com" target="_blank"><i class='fab fa-facebook' style='font-size:30px ;color:White'></i></a>
-        <a href="#services"><i class='fab fa-instagram' style='font-size:30px'></i></a>
-        <a href="#portfolio"><i class='fab fa-linkedin' style='font-size:30px'></i></a>
-        <a href="https://www.facebook.com" target="_blank">
-            <i class='fab fa-twitter' style='font-size:30px'></i>
+        <a href="https://github.com/Abhishekkalvakota" target="_blank">
+            <i class="fab fa-github"></i>
+
         </a>
-        <a href="https://www.facebook.com" target="_blank"><i class='fab fa-youtube' style='font-size:30px'></i></a>
-        <a href="https://www.facebook.com" target="_blank"><i class='fab fa-dribbble' style='font-size:36px'></i></a>
-        <a href="href="tel:6031112298" target="_blank"><i class='fab fa-whatsapp' style='font-size:30px'></i></a>
+            <a href="https://www.linkedin.com/in/abhishek-kalvakota-639986210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <i class='fab fa-linkedin'></i>
+              </a>
+              <a href="tel: +971 561260910" target="_blank">
+                <i class='fab fa-whatsapp'></i>
+              </a>
+              <a href="https://abhishekkalvakota.notion.site/Dot-Net-0440ad7f5b8f482fad2850e7e644e43c?pvs=4" target="_blank">
+                <img width="34" height="34" src="https://img.icons8.com/ios-filled/50/FFFFFF/notion.png" alt="notion"/>
+              </a>
 
     </div>
     <br />
